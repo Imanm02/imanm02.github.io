@@ -1,0 +1,15 @@
+---
+layout: page
+title: Updates
+description: News and updates from Iman Mohammadi.
+permalink: /updates/
+---
+
+<ul class="updates-list">
+  {% for item in site.data.updates %}
+    <li>
+      <span class="update-date">[{{ item.date }}]</span>
+      {{ item.text }}
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updates - Iman Mohammadi</title>
+  <meta name="description" content="News and updates from Iman Mohammadi.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <nav class="site-nav" id="nav">
+    <a href="/" class="nav-logo">Iman Mohammadi</a>
+    <ul class="nav-links">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/research">Research</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/teaching">Teaching</a></li>
+      <li><a href="/service">Service</a></li>
+      <li><a href="/honors">Honors</a></li>
+    </ul>
+    <button class="nav-burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="main-content">
+    <div class="page-header">
+      <h1 class="page-title">Updates</h1>
+    </div>
+    <ul class="updates-list">
+  
+    <li>
+      <span class="update-date">[Aug 2025]</span>
+      Started my PhD in Computer Science at UC Irvine, advised by Prof. Habiba Farrukh!
+    </li>
+  
+    <li>
+      <span class="update-date">[May 2025]</span>
+      Graduated with a B.Sc. in Computer Engineering from Sharif University of Technology.
+    </li>
+  
+    <li>
+      <span class="update-date">[Apr 2025]</span>
+      Joined the SPECT Lab at UC Irvine as a Research Assistant.
+    </li>
+  
+    <li>
+      <span class="update-date">[Nov 2024]</span>
+      Served as reviewer for ACM IUI 2025.
+    </li>
+  
+    <li>
+      <span class="update-date">[Oct 2024]</span>
+      Served as reviewer for ACM CHI 2025.
+    </li>
+  
+    <li>
+      <span class="update-date">[Aug 2024]</span>
+      Student Volunteer at ACM CSCW 2024 and ACM ISS 2024.
+    </li>
+  
+    <li>
+      <span class="update-date">[2024]</span>
+      Two Late-Breaking Work papers and a Workshop paper accepted at ACM CHI 2024!
+    </li>
+  
+    <li>
+      <span class="update-date">[2024]</span>
+      Our paper on decentralized collaborative peer assessment was accepted at ACM CSCW 2024.
+    </li>
+  
+    <li>
+      <span class="update-date">[Sep 2022]</span>
+      Won a Bronze Medal at the International Blockchain Olympiad (IBCOL) and Gold at the National level.
+    </li>
+  
+</ul>
+
+  </div>
+
+  <footer class="site-footer">
+    <p class="footer-line">© 2026 Iman Mohammadi</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.site-nav');
+      if (nav) window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+      const burger = document.querySelector('.nav-burger');
+      const navLinks = document.querySelector('.nav-links');
+      if (burger && navLinks) {
+        burger.addEventListener('click', () => { navLinks.classList.toggle('open'); burger.classList.toggle('active'); });
+        navLinks.querySelectorAll('a').forEach(l => l.addEventListener('click', () => { navLinks.classList.remove('open'); burger.classList.remove('active'); }));
+      }
+    });
+  </script>
+</body>
+</html>

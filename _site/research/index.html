@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research - Iman Mohammadi</title>
+  <meta name="description" content="Full list of publications by Iman Mohammadi.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <nav class="site-nav" id="nav">
+    <a href="/" class="nav-logo">Iman Mohammadi</a>
+    <ul class="nav-links">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/research">Research</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/teaching">Teaching</a></li>
+      <li><a href="/service">Service</a></li>
+      <li><a href="/honors">Honors</a></li>
+    </ul>
+    <button class="nav-burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="main-content">
+    <div class="page-header">
+      <h1 class="page-title">Research</h1>
+    </div>
+    <ol class="pub-list">
+  
+    <li class="pub-item">
+      <div class="pub-title">The Art of Gift-Giving with Limited Preference Data: How Fashion Recommender Systems Can Help</div>
+      <div class="pub-authors">S. Alipour, S. Elahimanesh, A. Ghayouri Sales, <strong>Iman Mohammadi</strong>, P. Morassafar, S. P. Neshaei</div>
+      <div class="pub-venue"><em>ACM CHI (Late-Breaking Work)</em>, 2024</div>
+      <div class="pub-links">
+        
+        
+        
+        
+        
+      </div>
+    </li>
+  
+    <li class="pub-item">
+      <div class="pub-title">User Voices, Platform Choices: Social Media Policy Puzzle with Decentralization Salt</div>
+      <div class="pub-authors">S. Elahimanesh, <strong>Iman Mohammadi</strong>, M. Mosayyebi, S. Zahedi Movahed, H. Hasani, M. Rohban</div>
+      <div class="pub-venue"><em>ACM CHI (Late-Breaking Work)</em>, 2024</div>
+      <div class="pub-links">
+        
+        
+        
+        
+        
+      </div>
+    </li>
+  
+    <li class="pub-item">
+      <div class="pub-title">Improving Grading Fairness and Transparency with Decentralized Collaborative Peer Assessment</div>
+      <div class="pub-authors">S. Alipour, S. Elahimanesh, S. Jahanzad, <strong>Iman Mohammadi</strong>, P. Morassafar, S. P. Neshaei</div>
+      <div class="pub-venue"><em>ACM CSCW</em>, 2024</div>
+      <div class="pub-links">
+        
+        
+        
+        
+        
+      </div>
+    </li>
+  
+    <li class="pub-item">
+      <div class="pub-title">LLMs in HCI Data Work: Bridging the Gap Between Information Retrieval and Responsible Research Practices</div>
+      <div class="pub-authors">N. Taghizadeh Serajeh, <strong>Iman Mohammadi</strong>, V. Fuccella, M. De Rosa</div>
+      <div class="pub-venue"><em>CHI 2024 Workshop on LLMs as Research Tools</em>, 2024</div>
+      <div class="pub-links">
+        
+        
+        
+        
+        
+      </div>
+    </li>
+  
+</ol>
+
+  </div>
+
+  <footer class="site-footer">
+    <p class="footer-line">© 2026 Iman Mohammadi</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.site-nav');
+      if (nav) window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+      const burger = document.querySelector('.nav-burger');
+      const navLinks = document.querySelector('.nav-links');
+      if (burger && navLinks) {
+        burger.addEventListener('click', () => { navLinks.classList.toggle('open'); burger.classList.toggle('active'); });
+        navLinks.querySelectorAll('a').forEach(l => l.addEventListener('click', () => { navLinks.classList.remove('open'); burger.classList.remove('active'); }));
+      }
+    });
+  </script>
+</body>
+</html>

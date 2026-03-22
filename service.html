@@ -1,0 +1,28 @@
+---
+layout: page
+title: Academic Service
+description: Academic service by Iman Mohammadi.
+permalink: /service/
+---
+
+{% if site.data.service.reviewing %}
+  <div class="service-category">
+    <h3>Conference Reviewer</h3>
+    <ul class="service-list">
+      {% for item in site.data.service.reviewing %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+{% if site.data.service.volunteering %}
+  <div class="service-category">
+    <h3>Student Leadership & Volunteering</h3>
+    <ul class="service-list">
+      {% for item in site.data.service.volunteering %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

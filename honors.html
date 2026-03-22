@@ -1,0 +1,18 @@
+---
+layout: page
+title: Honors & Awards
+description: Honors and awards received by Iman Mohammadi.
+permalink: /honors/
+---
+
+<ul class="honors-list">
+  {% for award in site.data.honors %}
+    <li class="honor-item">
+      <span class="honor-year">{{ award.year }}</span>
+      <div>
+        <strong>{{ award.title }}</strong>
+        <span class="honor-org">- {{ award.organization }}</span>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

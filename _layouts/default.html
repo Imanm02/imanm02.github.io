@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }} - {{ site.description }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  {{ content }}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      /* ── Smooth anchor scrolling ── */
+      document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', e => {
+          const target = document.querySelector(link.getAttribute('href'));
+          if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+        });
+      });
+
+      /* ── Nav subtle shadow on scroll ── */
+      const nav = document.querySelector('.site-nav');
+      if (nav) {
+        window.addEventListener('scroll', () => {
+          nav.classList.toggle('scrolled', window.scrollY > 40);
+        });
+      }
+
+      /* ── Mobile hamburger toggle ── */
+      const burger = document.querySelector('.nav-burger');
+      const navLinks = document.querySelector('.nav-links');
+      if (burger && navLinks) {
+        burger.addEventListener('click', () => {
+          navLinks.classList.toggle('open');
+          burger.classList.toggle('active');
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            navLinks.classList.remove('open');
+            burger.classList.remove('active');
+          });
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

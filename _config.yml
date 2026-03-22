@@ -1,0 +1,12 @@
+title: "Iman Mohammadi"
+description: "PhD Student in Computer Science at UC Irvine - HCI, Social Computing & Virtual Reality"
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

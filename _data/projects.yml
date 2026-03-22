@@ -1,0 +1,39 @@
+- title: "VR Safety & Moderation Analysis"
+  description: "Mixed-method research analyzing 15.8 million Reddit posts and conducting cognitive walkthroughs of safety features across VRChat, Horizon Worlds, and Rec Room."
+  image: "/assets/img/project-vr-safety.png"
+  selected: true
+  tags:
+    - "Social VR"
+    - "Content Analysis"
+    - "Python"
+  link: "#"
+
+- title: "Decentralized Social Media Platform"
+  description: "A platform focusing on user-driven policy-making, incorporating crowd-sourcing methods and a Transformer-based model to adapt to users' preferred policies."
+  image: "/assets/img/project-decentral-social.png"
+  selected: true
+  tags:
+    - "Decentralization"
+    - "Transformers"
+    - "Django"
+  link: "#"
+
+- title: "AI-Powered Fashion Recommender"
+  description: "A fashion recommendation system for gift selection with limited preference data, published at ACM CHI 2024 as a Late-Breaking Work."
+  image: "/assets/img/project-fashion-rec.png"
+  selected: true
+  tags:
+    - "Recommender Systems"
+    - "Machine Learning"
+    - "HCI"
+  link: "#"
+
+- title: "Blockchain-Enabled Educational Platform"
+  description: "A blockchain-based education website built with Django, React, and Docker, trialed at Sharif University of Technology. Won Bronze at IBCOL."
+  image: "/assets/img/project-blockchain-edu.png"
+  selected: false
+  tags:
+    - "Blockchain"
+    - "React"
+    - "Docker"
+  link: "#"
