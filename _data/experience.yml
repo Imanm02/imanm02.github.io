@@ -24,15 +24,6 @@
     - "Created a customized dataset for model evaluation."
     - "Co-authored a paper accepted at CHI 2024 Workshop on LLMs as Research Tools."
 
-- title: "Research Intern"
-  organization: "Chinese University of Hong Kong"
-  location: "Hong Kong"
-  date: "Jan 2023 - Nov 2023"
-  description:
-    - "Researched LLM robustness using one-shot learning methods."
-    - "Developed a novel approach using weighted averaging of outputs from multiple LLMs trained on distinct subsets."
-    - "Executed comprehensive testing and implementation of the experimental framework."
-
 - title: "Research Assistant"
   organization: "Sharif University of Technology"
   location: "Tehran, Iran"
@@ -40,6 +31,15 @@
   description:
     - "Researched mobility-aware task offloading in vehicular fog computing (Supervisor: Dr. Mohsen Ansari)."
     - "Created an innovative approach emphasizing migration avoidance to ensure seamless service delivery."
+
+- title: "Research Intern"
+  organization: "Chinese University of Hong Kong - CURE Lab"
+  location: "Hong Kong"
+  date: "Jan 2023 - Nov 2023"
+  description:
+    - "Researched LLM robustness using one-shot learning methods (Supervisor: Prof. Qiang Xu)."
+    - "Developed a novel approach using weighted averaging of outputs from multiple LLMs trained on distinct subsets."
+    - "Executed comprehensive testing and implementation of the experimental framework."
 
 - title: "Research Assistant"
   organization: "Tehran Institute for Advanced Studies (TeIAS)"

@@ -80,7 +80,7 @@ layout: default
           <li class="pub-item">
             <div class="pub-title">{{ pub.title }}</div>
             <div class="pub-authors">{{ pub.authors | replace: "Iman Mohammadi", "<strong>Iman Mohammadi</strong>" }}</div>
-            <div class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+            <div class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.month }} {{ pub.year }}</div>
             <div class="pub-links">
               {% if pub.link and pub.link != "#" %}
                 [<a href="{{ pub.link }}" target="_blank" rel="noopener">Paper</a>]
@@ -107,7 +107,7 @@ layout: default
               <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
             {% endif %}
             <div class="project-body">
-              <h3>{% if project.link %}<a href="{{ project.link }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
+              <h3>{{ project.title }}</h3>
               <p>{{ project.description }}</p>
               {% if project.tags %}
                 <div class="project-tags">
@@ -116,6 +116,14 @@ layout: default
                   {% endfor %}
                 </div>
               {% endif %}
+              <div class="project-links">
+                {% if project.github and project.github != "#" %}
+                  [<a href="{{ project.github }}" target="_blank" rel="noopener">GitHub</a>]
+                {% endif %}
+                {% if project.link and project.link != "#" %}
+                  [<a href="{{ project.link }}" target="_blank" rel="noopener">Demo</a>]
+                {% endif %}
+              </div>
             </div>
           </div>
         {% endif %}

@@ -7,6 +7,7 @@
     - "Content Analysis"
     - "Python"
   link: "#"
+  github: "#"
 
 - title: "Decentralized Social Media Platform"
   description: "A platform focusing on user-driven policy-making, incorporating crowd-sourcing methods and a Transformer-based model to adapt to users' preferred policies."
@@ -17,6 +18,7 @@
     - "Transformers"
     - "Django"
   link: "#"
+  github: "#"
 
 - title: "AI-Powered Fashion Recommender"
   description: "A fashion recommendation system for gift selection with limited preference data, published at ACM CHI 2024 as a Late-Breaking Work."
@@ -27,6 +29,7 @@
     - "Machine Learning"
     - "HCI"
   link: "#"
+  github: "#"
 
 - title: "Blockchain-Enabled Educational Platform"
   description: "A blockchain-based education website built with Django, React, and Docker, trialed at Sharif University of Technology. Won Bronze at IBCOL."
@@ -37,3 +40,4 @@
     - "React"
     - "Docker"
   link: "#"
+  github: "#"

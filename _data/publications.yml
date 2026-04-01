@@ -2,6 +2,7 @@
   authors: "S. Alipour, S. Elahimanesh, A. Ghayouri Sales, Iman Mohammadi, P. Morassafar, S. P. Neshaei"
   venue: "ACM CHI (Late-Breaking Work)"
   year: 2024
+  month: "May"
   selected: true
   link: "#"
 
@@ -9,6 +10,7 @@
   authors: "S. Elahimanesh, Iman Mohammadi, M. Mosayyebi, S. Zahedi Movahed, H. Hasani, M. Rohban"
   venue: "ACM CHI (Late-Breaking Work)"
   year: 2024
+  month: "May"
   selected: true
   link: "#"
 
@@ -16,6 +18,7 @@
   authors: "S. Alipour, S. Elahimanesh, S. Jahanzad, Iman Mohammadi, P. Morassafar, S. P. Neshaei"
   venue: "ACM CSCW"
   year: 2024
+  month: "November"
   selected: true
   link: "#"
 
@@ -23,5 +26,6 @@
   authors: "N. Taghizadeh Serajeh, Iman Mohammadi, V. Fuccella, M. De Rosa"
   venue: "CHI 2024 Workshop on LLMs as Research Tools"
   year: 2024
+  month: "May"
   selected: true
   link: "#"

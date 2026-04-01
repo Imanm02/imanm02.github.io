@@ -426,6 +426,19 @@ img { max-width: 100%; display: block; }
   border: 1px solid var(--border);
   color: var(--text-muted);
 }
+.project-card .project-links {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+}
+.project-card .project-links a {
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+.project-card .project-links a:hover {
+  text-decoration: underline;
+  color: var(--accent-hover);
+}
 
 /* ── Teaching ────────────────────────────────────────────── */
 .teaching-group h3 {
