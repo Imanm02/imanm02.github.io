@@ -82,11 +82,11 @@ layout: default
             <div class="pub-authors">{{ pub.authors | replace: "Iman Mohammadi", "<strong>Iman Mohammadi</strong>" }}</div>
             <div class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.month }} {{ pub.year }}</div>
             <div class="pub-links">
-              {% if pub.link and pub.link != "#" %}
-                [<a href="{{ pub.link }}" target="_blank" rel="noopener">Paper</a>]
+              {% if pub.paper and pub.paper != "#" %}
+                [<a href="{{ pub.paper }}" target="_blank" rel="noopener">Paper</a>]
               {% endif %}
-              {% if pub.code %}
-                [<a href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>]
+              {% if pub.github %}
+                [<a href="{{ pub.github }}" target="_blank" rel="noopener">GitHub</a>]
               {% endif %}
             </div>
           </li>

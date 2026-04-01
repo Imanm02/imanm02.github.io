@@ -4,7 +4,8 @@
   year: 2024
   month: "May"
   selected: true
-  link: "#"
+  paper: "https://dl.acm.org/doi/full/10.1145/3613905.3651000"
+  github: "https://github.com/GiftRecsysLab"
 
 - title: "User Voices, Platform Choices: Social Media Policy Puzzle with Decentralization Salt"
   authors: "S. Elahimanesh, Iman Mohammadi, M. Mosayyebi, S. Zahedi Movahed, H. Hasani, M. Rohban"
@@ -12,7 +13,8 @@
   year: 2024
   month: "May"
   selected: true
-  link: "#"
+  paper: "https://dl.acm.org/doi/full/10.1145/3613905.3650799"
+  github: "https://github.com/Decentralidia"
 
 - title: "Improving Grading Fairness and Transparency with Decentralized Collaborative Peer Assessment"
   authors: "S. Alipour, S. Elahimanesh, S. Jahanzad, Iman Mohammadi, P. Morassafar, S. P. Neshaei"
@@ -20,7 +22,8 @@
   year: 2024
   month: "November"
   selected: true
-  link: "#"
+  paper: "https://dl.acm.org/doi/abs/10.1145/3637350"
+  github: "https://github.com/Blockment"
 
 - title: "LLMs in HCI Data Work: Bridging the Gap Between Information Retrieval and Responsible Research Practices"
   authors: "N. Taghizadeh Serajeh, Iman Mohammadi, V. Fuccella, M. De Rosa"
@@ -28,4 +31,4 @@
   year: 2024
   month: "May"
   selected: true
-  link: "#"
+  paper: "https://arxiv.org/abs/2403.18173"
