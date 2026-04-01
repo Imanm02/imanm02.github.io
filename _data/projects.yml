@@ -1,14 +1,3 @@
-- title: "VR Safety & Moderation Analysis"
-  description: "Mixed-method research analyzing 15.8 million Reddit posts and conducting cognitive walkthroughs of safety features across VRChat, Horizon Worlds, and Rec Room."
-  image: "/assets/img/project-vr-safety.png"
-  selected: true
-  tags:
-    - "Social VR"
-    - "Content Analysis"
-    - "Python"
-  link: "#"
-  github: "#"
-
 - title: "Decentralized Social Media Platform"
   description: "A platform focusing on user-driven policy-making, incorporating crowd-sourcing methods and a Transformer-based model to adapt to users' preferred policies."
   image: "/assets/img/project-decentral-social.png"
