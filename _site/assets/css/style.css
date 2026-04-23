@@ -493,6 +493,10 @@ img { max-width: 100%; display: block; }
   content: '·'; position: absolute; left: 0;
   color: var(--text-muted); font-weight: 700;
 }
+.service-list .service-venue {
+  font-weight: 600;
+  color: var(--text-primary);
+}
 
 /* ── Honors & Awards ─────────────────────────────────────── */
 .honors-list {

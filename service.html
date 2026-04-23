@@ -5,12 +5,34 @@ description: Academic service by Iman Mohammadi.
 permalink: /service/
 ---
 
-{% if site.data.service.reviewing %}
+{% if site.data.service.program_committee %}
   <div class="service-category">
-    <h3>Conference Reviewer</h3>
+    <h3>Program Committee</h3>
     <ul class="service-list">
-      {% for item in site.data.service.reviewing %}
-        <li>{{ item }}</li>
+      {% for item in site.data.service.program_committee %}
+        <li><span class="service-venue">{{ item.venue }}</span>: {{ item.years }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+{% if site.data.service.external_reviewing %}
+  <div class="service-category">
+    <h3>External Reviewing</h3>
+    <ul class="service-list">
+      {% for item in site.data.service.external_reviewing %}
+        <li><span class="service-venue">{{ item.venue }}</span>: {{ item.years }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+{% if site.data.service.poster_jury %}
+  <div class="service-category">
+    <h3>Poster Jury</h3>
+    <ul class="service-list">
+      {% for item in site.data.service.poster_jury %}
+        <li><span class="service-venue">{{ item.venue }}</span>: {{ item.years }}</li>
       {% endfor %}
     </ul>
   </div>
